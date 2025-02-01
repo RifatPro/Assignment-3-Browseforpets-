@@ -25,6 +25,7 @@
     animation-iteration-count: infinite;
     animation-duration: 5s;
 }
+/* Mobile Responsive */
 @keyframes anima {
     0% {
         background-color:rgba(255, 0, 0, 0.329);
@@ -52,7 +53,6 @@
         top:0px;
     }
 }
-
 @media screen and (max-width: 575px) {
     #ani {
         position: absolute;
